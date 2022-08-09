@@ -25,13 +25,12 @@ const runBattles = (battles: Battle[]): void => {
 };
 
 export {
-    player1,
-    player2,
-    player3,
-    monster1,
-    monster2,
-    pvp,
-    pve,
-    runBattles,
+  player1,
+  player2,
+  player3,
+  monster1,
+  monster2,
+  pvp,
+  pve,
+  runBattles,
 };
-
