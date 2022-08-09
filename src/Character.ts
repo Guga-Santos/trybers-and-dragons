@@ -70,7 +70,7 @@ export default class Character implements Fighter {
     this._lifePoints = this._maxLifePoints;
   }
 
-  special(enemy: Fighter): void {
+  special(enemy: Fighter | SimpleFighter): void {
     const superAttack = this._strength * getRandomInt(1, 3);
     console.log('LOOOOOOREM');
     enemy.receiveDamage(superAttack);
