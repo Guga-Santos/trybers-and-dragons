@@ -1,57 +1,34 @@
-# Project Store Manager
+# Project Trybers and Dragons
 
-- Project to develop a RESTful API (CRUD) for a dropshipping based sales system, using MSC Architecture.
+- Project to use SOLID and OOP concepts into developing a RPG like script. 
 
 ## Requirements
 
-1. Create endpoint to list products in `/products` and `/products/:id` ✔️
-2. Develop tests to cover at least `5%` of application layers ✔️
-3. Create endpoint to register products in `/products` ✔️
-4. Create product registration validations ✔️
-5. Develop tests to cover at least `10%` of application layers ✔️
-6. Create endpoint to validate and register sales in `/sales` ✔️
-7. Develop tests to cover at least `15%` of application layers ✔️
-8. Create endpoint to list sales in `/sales` and `/sales/:id` ✔️
-9. Develop tests to cover at least `20%` of application layers ✔️
-10. Create endpoint to update product by id in `/products/:id` ✔️
-11. Develop tests to cover at least `25%` of application layers ✔️
-12. Create endpoint to delete product by id in `/products/:id` ✔️
+1. Create `Race` class ✔️
+2. Create classes that inherit from `Race` ✔️
+3. Create `Energy` interface ✔️
+4. Create `Archetype` class ✔️
+5. Create classes that inherit from `Archetype` ✔️
+6. Create `Fighter` interface ✔️
+7. Create `Character` class ✔️
+8. Create `SimpleFighter` interface ✔️
+9. Create `Monster` class ✔️ 
+10. Create `PVP` class ✔️
 
 ## Bonus Requirements
 
-13. Develop tests to cover at least `30%` of application layers ✔️
-14. Create endpoint to delete sale by id in `/sales/:id` ✔️
-15. Develop tests to cover at least `35%` of application layers ✔️
-16. Create endpoint to update sale by id in `/sales/:id` ✔️
-17. Develop tests to cover at least `40%` of application layers ✔️
-18. Create endpoint to search product by query (`products/search?q=searchTerm`) in `/products/search` ✔️
-19. Develop tests to cover at least `50%` of application layers ✔️
-20. Develop tests to cover at least `60%` of application layers ✔️
+11. Create `PVE` class ✔️
+12. Create `Dragon` class ✔️
+13. Create objects in `index` file ✔️
  
 ## Language and Tools
 
-<a href="https://www.mysql.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="30" height="30"/> </a>
-MySQL
+<a href="https://www.typescriptlang.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="30" height="30"/> </a>
+Typescript
 </br>
 </br>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="30" height="30"/> </a>
-JavaScript
-</br>
-</br>
-<a href="https://nodejs.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="30" height="30"/> </a>
-Node.js
-</br>
-</br>
-<a href="https://mochajs.org" target="_blank"> <img src="https://www.vectorlogo.zone/logos/mochajs/mochajs-icon.svg" alt="mocha" width="30" height="30"/> </a>
-Mocha
-</br>
-</br>
-<a href="https://sinonjs.org/" target="_blank"> <img src="https://sinonjs.org/assets/images/logo.png" alt="sinon" width="30" height="30"/> </a>
-Sinon
-</br>
-</br>
-<a href="https://www.chaijs.com/" target="_blank"> <img src="https://camo.githubusercontent.com/7ecbd4531436e4f20c1dba52a4fd4ac367cfcc20a2f62cfe7a10f32da306afc6/687474703a2f2f636861696a732e636f6d2f696d672f636861692d6c6f676f2e706e67" alt="chai" width="30" height="30"/> </a>
-Chai
+<a href="https://www.docker.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="30" height="30"/> </a>
+Docker
 
 ## Get started
 
@@ -70,7 +47,7 @@ Chai
   
   - Open interactive terminal using:
   ```sh
-  $ docker exec -it store_manager bash
+  $ docker exec -it trybers_and_dragons bash
   ```
   
   - Install dependencies, inside the container, with: 
@@ -91,12 +68,12 @@ Chai
   - Access directory then clone the repository:
   ```sh
   $ cd <Your directory name here>
-  $ git clone git@github.com:ViniGB/Project-Store-manager.git
+  $ git clone git@github.com:ViniGB/Project-Trybers-and-dragons.git
   ```
   
   - Access the newly created directory:
   ```sh
-  $ cd Project-Store-manager
+  $ cd Project-Trybers-and-dragons
   ```
   
   - Install dependencies:
